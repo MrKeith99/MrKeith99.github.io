@@ -1,14 +1,14 @@
-//html ‚©‚çƒOƒ‰ƒt‚ğ@@‚·‚é—v‘fiCanvasj‚ğ“Ç‚İ‚Ş
+//html ã‹ã‚‰ã‚°ãƒ©ãƒ•ã‚’ã€€ã€€ã™ã‚‹è¦ç´ ï¼ˆCanvasï¼‰ã‚’èª­ã¿è¾¼ã‚€
 var ctx = document.getElementById('bar').getContext('2d');
 
-//new Chart‚Í‘‚«•û‚ÌŠî–{‚Ì‚Å•ÏX‚Å‚«‚È‚¢
+//new Chartã¯æ›¸ãæ–¹ã®åŸºæœ¬ã®ã§å¤‰æ›´ã§ããªã„
 var barChart = new Chart(ctx,{
     type: 'bar',
     data: {
         labels: ['Red', 'Blue', 'Green', 'Yellow', 'Brown'],
         datasets: [
             {
-                type: 'bubble',
+                type: 'bar',
                 label: 'hogehoge',
                 data: [100, 31, 53, 5, 100, 151],
                 backgroundColor: [
